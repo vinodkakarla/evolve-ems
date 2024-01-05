@@ -20,6 +20,9 @@ module.exports = function (config) {
       reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },
+    devServer: {
+      disableHostCheck: true // <  Copy and paste the domain from the URL Codebox provides for your runtime here
+    },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
