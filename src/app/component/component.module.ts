@@ -12,6 +12,8 @@ import { NgbdnavBasicComponent } from './nav/nav.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './card/card.component';
 import { TableComponent } from "./table/table.component";
+// import {ListingComponent} from "./listing/listing.component"
+// import {DataTablesModule} from "angular-datatables"
 
 @NgModule({
   imports: [
@@ -20,6 +22,7 @@ import { TableComponent } from "./table/table.component";
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
+    // DataTablesModule
   ],
   declarations: [
     NgbdpaginationBasicComponent,
@@ -28,7 +31,8 @@ import { TableComponent } from "./table/table.component";
     NgbdnavBasicComponent,
     ButtonsComponent,
     CardsComponent,
-    TableComponent
+    TableComponent,
+    // ListingComponent
   ]
 })
 export class ComponentsModule { }

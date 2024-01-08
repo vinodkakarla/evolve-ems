@@ -18,8 +18,8 @@ export const TopSelling: Product[] = [
 
     {
         image: 'assets/images/users/user1.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
+        uname: 'Rosswel Honda',
+        gmail: 'Downtown Atlanta',
         productName: 'Flexy React',
         status: 'danger',
         weeks: 35,
@@ -28,7 +28,7 @@ export const TopSelling: Product[] = [
     {
         image: 'assets/images/users/user2.jpg',
         uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
+        gmail: 'Times Square',
         productName: 'Landing pro React',
         status: 'info',
         weeks: 35,
@@ -36,8 +36,8 @@ export const TopSelling: Product[] = [
     },
     {
         image: 'assets/images/users/user3.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
+        uname: 'Charge EV',
+        gmail: 'Dallas',
         productName: 'Elite React	',
         status: 'warning',
         weeks: 35,
@@ -45,8 +45,8 @@ export const TopSelling: Product[] = [
     },
     {
         image: 'assets/images/users/user4.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
+        uname: 'Parker GreenWay',
+        gmail: 'Bay Area',
         productName: 'Ample React',
         status: 'success',
         weeks: 35,
